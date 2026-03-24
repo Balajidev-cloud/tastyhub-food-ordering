@@ -2,7 +2,7 @@
 
 
 ## 🌐 Live Demo
-👉 https://your-username.github.io/tastyhub-food-ordering/
+👉 https://balajidev-cloud.github.io/tastyhub-food-ordering/
 
 ## 📌 Project Description
 TastyHub is a simple and responsive food ordering website built using HTML, CSS, and JavaScript.  
