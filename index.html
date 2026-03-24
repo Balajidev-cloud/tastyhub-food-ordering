@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TastyHub | South Indian Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div class="header">
+  <div class="header">
+  <h1>TastyHub</h1>
+  <h2><p class="tagline">🍛 Fresh & Delicious South Indian Food — Delivered to Your Door!</p></h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <br><br>
+    <span class="new-badege">Your First Order 50% Discount</span>
+
+
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <img src="./1.jpg" width="200">
+        <p><b>Idli</b></p>
+        <p>Rs.40</p>
+        <p>Tasty food with very delicious taste</p>
+       <button onclick="orderNow('Idli')">Order Now</button>
+    </div>
+
+    <div class="card">
+        <img src="./2.webp" width="200">
+         <p><b>Dosa</b></p>
+        <p>Rs.60</p>
+        <p>Tasty food with very delicious taste</p>
+      <button onclick="orderNow('Dosa')">Order Now</button>
+    </div>
+
+    <div class="card">
+        <img src="./3.jpeg" width="200">
+         <p><b>Puri</b></p>
+        <p>Rs.60</p>
+        <p>Tasty food with very delicious taste</p>
+      <button onclick="orderNow('Puri')">Order Now</button>
+    </div>
+
+    <div class="card">
+        <img src="./4.jpg" width="200">
+         <p><b>Bun Parotta </b></p>
+        <p>Rs.60</p>
+        <p>Tasty food with very delicious taste</p>
+       <button onclick="orderNow('Bun Borota')">Order Now</button>
+    </div>
+    <div class="card">
+        <img src="./5.jpg" width="200">
+         <p><b>Vadi</b></p>
+        <p>Rs.25</p>
+        <p>Tasty food with very delicious taste</p>
+       <button onclick="orderNow('Vadi')">Order Now</button>
+    </div>
+    <div class="card">
+        <img src="./6.jpg" width="200">
+         <p><b>Briyani</b></p>
+        <p>Rs.120</p>
+        <p>Tasty food with very delicious taste</p>
+        <button onclick="orderNow('Briyani')">Order Now</button>
+    </div>
+    <div class="card">
+        <img src="./7.jpg" width="200">
+         <p><b>Mutton Soup</b></p>
+        <p>Rs.150</p>
+        <p>Tasty food with very delicious taste</p>
+   <button onclick="orderNow('Mutton Soup')">Order Now</button>
+    </div>
+    <div class="card">
+        <img src="./8.jpg" width="200">
+         <p><b>Full Meals</b></p>
+        <p>Rs.180</p>
+        <p>Tasty food with very delicious taste</p>
+    <button onclick="orderNow('Full Meals')">Order Now</button>
+    
+    
+    </div>
+    <script>
+        let registered = false;
+
+function submitForm() {
+    let name = document.getElementById("name").value;
+
+    if (name) {
+        registered = true;
+        alert("Registered successfully!");
+    } else {
+        alert("Enter your name first!");
+    }
+}
+
+function orderNow(item) {
+    if (!registered) {
+        alert("Fill Contact Us first!");
+    } else {
+        alert(item + " ordered!");
+    }
+}
+
+</script>
+
+
+</div>
+
+
+<div class="contact">
+   <div class="contact">
+    <h2>Contact Us</h2>
+
+    <input type="text" id="name" placeholder="Enter your Name">
+    <input type="number" id="phone" placeholder="Enter your mobile number">
+    <input type="email" id="email" placeholder="Enter your email">
+    <br><br>
+
+    <button type="button" onclick="orderNow('Full Meals')">Send</button>
+
+</div>
+</div>
+
+<div class="footer">
+  <p>© 2025 Reestar. All Rights Reserved.</p>
+  <p>📞 +91 3366998855 | 📧 reestar@gmail.com</p>
+</div>
+</body>
+</html>
