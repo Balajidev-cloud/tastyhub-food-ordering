@@ -11,13 +11,9 @@ Users can explore food items and place orders easily.
 ---
 
 ## 🚀 Features
-- 🍕 Browse food items
-- 🛒 Add to cart (if added)
 - 📱 Responsive design
 - 📞 Contact form
 - ⚡ Fast and user-friendly UI
-
----
 
 ## 🛠️ Technologies Used
 - HTML5
@@ -25,11 +21,11 @@ Users can explore food items and place orders easily.
 - JavaScript
 
 ## 🧑‍💻 Author
-- Your Name
-
----
+- BALAJI
+- Frontend Developer
 
 ## 📢 Future Improvements
+- 🛒 Add to cart (if added)
 - Add login/signup
 - Add payment integration
 - Backend support (Node.js / Firebase)
